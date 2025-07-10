@@ -51,7 +51,32 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Inception",
+                    ReleaseDate = DateTime.Parse("2010-7-16"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "The Avengers",
+                    ReleaseDate = DateTime.Parse("2012-5-4"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "The Hunger Games",
+                    ReleaseDate = DateTime.Parse("2012-3-23"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 3.99M
                 }
+
             );
             context.SaveChanges();
         }
